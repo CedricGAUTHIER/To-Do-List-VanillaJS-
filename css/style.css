@@ -1,0 +1,64 @@
+body{
+    background-color: #2e5849;
+    padding: 1em;
+}
+
+input{
+    background-color: #1c382f;
+    border-color: #183129;
+    box-shadow: 25px rgba(0,0,0,.1);
+    color: #fff;
+    margin-left: 30vw;
+    width: 40vw;
+    height: 5em;
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+input:focus{
+    box-shadow: 25px rgba(0,0,0,.5);
+}
+
+input::placeholder{
+    color:rgba(255, 255, 255, .5);
+}
+
+#title{
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 2em;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 2px solid antiquewhite;
+    padding-bottom: 0.5em;
+
+}
+.task{
+    margin-left: 30vw;
+    width: 40vw;
+    font-size: 1em;
+    margin-top: 0.5em;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px ;
+    padding: 0.5em;
+    height: 2em;
+
+
+}
+
+.checkbox{
+    height: 0.5em;
+    width: 0.5em;
+    margin-left: 0em;
+    padding-left: 0.5em;
+    
+    
+}
+
+.done{
+    text-decoration: line-through;
+    
+}
